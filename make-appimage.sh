@@ -14,6 +14,7 @@ export DESKTOP=/usr/share/applications/blender.desktop
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 export DEPLOY_SYS_PYTHON=1
+export DEPLOY_SDL=1
 export OPTIMIZE_LAUNCH=1
 
 # Deploy dependencies
@@ -25,9 +26,7 @@ quick-sharun \
 	/usr/lib/libcblas.so*     \
 	/usr/lib/liblapack.so*    \
 	/usr/lib/libopenblas.so*  \
-	/usr/lib/libquadmath.so*  \
-	/usr/lib/libdecor-0.so*   \
-	/usr/lib/libdecor/*/libdecor-cairo.so*
+	/usr/lib/libquadmath.so*
 
 # blender needs the files of its share directory relative to it
 ln -sr ./AppDir/share/blender/* ./AppDir/bin
