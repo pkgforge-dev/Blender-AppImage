@@ -22,11 +22,11 @@ quick-sharun \
 	/usr/bin/blender*         \
 	/usr/share/blender        \
 	/usr/lib/libssl.so*       \
-	/usr/lib/libtcm.so*       \
 	/usr/lib/libcblas.so*     \
 	/usr/lib/liblapack.so*    \
 	/usr/lib/libopenblas.so*  \
-	/usr/lib/libquadmath.so*
+	/usr/lib/libquadmath.so*  \
+	/opt/intel/oneapi/tcm/*/lib/libtcm.so*
 
 # blender needs the files of its share directory relative to it
 ln -sr ./AppDir/share/blender/* ./AppDir/bin
