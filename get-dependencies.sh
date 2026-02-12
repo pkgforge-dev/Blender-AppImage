@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm blender libdecor python-certifi
+pacman -Syu --noconfirm blender libdecor python-certifi intel-oneapi-tcm
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
