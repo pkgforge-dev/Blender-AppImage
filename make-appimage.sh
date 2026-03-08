@@ -13,7 +13,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/blender.svg
 export DESKTOP=/usr/share/applications/blender.desktop
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
-export DEPLOY_SYS_PYTHON=1
+export DEPLOY_PYTHON=1
 export DEPLOY_SDL=1
 export OPTIMIZE_LAUNCH=1
 
