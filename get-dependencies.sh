@@ -15,7 +15,7 @@ pacman -Syu --noconfirm \
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common ffmpeg-mini x265-mini llvm-mini
+get-debloated-pkgs --add-common ffmpeg-mini x265-mini llvm-libs-mini
 
 # Comment this out if you need an AUR package
 #make-aur-package PACKAGENAME
