@@ -11,6 +11,7 @@ pacman -Syu --noconfirm \
 	intel-oneapi-tcm \
 	libdecor         \
 	openblas         \
+	python-cattrs    \
 	python-certifi
 
 echo "Installing debloated packages..."
